@@ -9,7 +9,7 @@ const routes = {
     {
       path: '/',
       method: 'post',
-      scope: 1
+      scope: 2
     },
     {
       path: '/:id',
@@ -35,3 +35,8 @@ const routes = {
 }
 
 module.exports = routes;
+
+// scope
+// 0 - admin access only
+// 1 - user access
+// 2 - public access
